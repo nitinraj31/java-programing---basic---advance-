@@ -1,0 +1,57 @@
+1. write a code for if else in java programing language 
+
+import java.util.*;
+public class string {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int age = sc.nextInt();
+
+        if(age>=18){
+            System.out.println("You are eligible for voting");
+        }
+        else{
+            System.out.println("You are not eligible for voting");
+        }
+        System.out.println("Program has run successfully");
+    }
+
+}
+
+
+
+
+
+
+
+leap year :- 
+
+import java.util.*;
+public class odd{
+    public static void main (String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int year = sc.nextInt();
+
+        if (year % 4 == 0); 
+            {
+                if (year % 100 == 0);
+                {
+                   if (year % 400 == 0);
+                }
+            System.out.println (year + "Leap year ");
+        }
+       else {
+            System.out.println(year+ " not a leap year ");
+
+        }
+         else {
+            System.out.println(year + " leap year ");
+        }
+         else {
+            System.out.println(year + " not a leap year ");
+        }
+        sc.close();
+
+    }
+}
