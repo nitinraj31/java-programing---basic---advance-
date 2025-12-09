@@ -3,7 +3,7 @@ public class odd{
     public static void main (String args[])
     {
 
-        scanner sc= new scanner (System.in);
+        Scanner sc= new Scanner (System.in);
         System.out.print("Enter  a year : ");
         int yr=sc.nextInt();
         if (yr%400==0){
@@ -20,4 +20,5 @@ public class odd{
             
         }
         sc.close();
+    }
 }

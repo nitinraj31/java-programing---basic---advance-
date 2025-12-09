@@ -11,6 +11,7 @@ public class string {
             System.out.println("You are not eligible for voting");
         }
         System.out.println("Program has run successfully");
+        sc.close();
     }
 
 }
